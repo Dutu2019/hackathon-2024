@@ -1,0 +1,21 @@
+.flexbox-container {
+  display: flex;
+  align-items: baseline;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 20vw;
+  user-select: none;
+}
+
+.Logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Logo h2 {
+  height: fit-content;
+  padding-bottom: 0.5rem;
+  font-style: italic;
+}

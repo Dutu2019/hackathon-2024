@@ -1,0 +1,8 @@
+.Login button {
+  all: unset;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
