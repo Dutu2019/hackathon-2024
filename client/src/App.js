@@ -3,6 +3,8 @@ import {userContext} from "./Contexts/User";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
+import Login from "./Components/Login/Login";
+import SignUp from "./Components/SignUp/SignUp";
 import "./App.css"
 
 function App() {
@@ -15,7 +17,8 @@ function App() {
         <Navbar/>
           <Routes>
             <Route path="/" element={<Home/>}/>
-            {user.isAuth && <Route path="login"/>}
+            <Route path="login" element={<Login/>}/>
+            <Route path="sign-up" element={<SignUp/>}/>
           </Routes>
         </BrowserRouter>
     </div>

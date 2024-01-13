@@ -1,7 +1,7 @@
 .flexbox-container {
   display: flex;
   align-items: baseline;
-  position: absolute;
+  position: relative;
   left: 1rem;
   top: 1rem;
   width: 15vw;
@@ -18,4 +18,5 @@
   height: fit-content;
   padding-bottom: 0.5rem;
   font-style: italic;
+  color: black;
 }

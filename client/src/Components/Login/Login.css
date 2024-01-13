@@ -1,0 +1,41 @@
+.Login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 40vw;
+    min-width: 500px;
+    height: fit-content;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.Login input, .submit-button {
+    width: 90%;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.Login .toSignUp {
+    display: flex;
+    gap: 10px;
+}
+
+.Login .submit-button {
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    transition: 100ms;
+}
+
+.Login .submit-button:hover {
+    border: 2px solid black;
+    transform: scale(1.03);
+}

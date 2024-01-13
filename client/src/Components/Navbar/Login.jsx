@@ -7,7 +7,7 @@ export default function Login() {
   const user = useContext(userContext)
   
   return (
-    <div className='Login'>
+    <div className='Login-button'>
         <button type='button'>
           <Link to="/login" className='Login-link'>Login</Link>
         </button>

@@ -1,4 +1,4 @@
-.Login button {
+.Login-button button {
   all: unset;
   position: absolute;
   right: 2rem;
@@ -10,11 +10,11 @@
   transition: 500ms;
 }
 
-.Login button:hover {
+.Login-button button:hover {
   background-color: aqua;
   cursor: pointer;
 }
 
-.Login .Login-link {
+.Login-button .Login-link {
   color: black;
 }
