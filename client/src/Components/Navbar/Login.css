@@ -5,4 +5,16 @@
   top: 1rem;
   font-size: 2rem;
   font-weight: bold;
+  padding: 5px;
+  border-radius: 25px;
+  transition: 500ms;
+}
+
+.Login button:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.Login .Login-link {
+  color: black;
 }
